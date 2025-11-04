@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Chance</title>
+</head>
+<style>
+    body
+    {
+        background-color: antiquewhite; /*Saddle Brown*/;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+    .heading
+    {
+        position: absolute;
+        top: 120px;
+        bottom: 50px;
+        left: 50px;
+        right: 50px;
+        font-size: 128px;
+        font-family: "Great Vibes";
+        color: #8B4513;
+    }
+    .next
+    {
+         position: absolute;
+        bottom: 1px;
+        right: 30px;
+        text-align: right;
+        display: inline-block;
+        font-size: 50px;
+        font-style:italic;
+        color: #8B4513;
+    }
+    .next1
+    {
+        position: absolute;
+        bottom: 1px;
+        left: 30px;
+        text-align: left;
+        display: inline-block;
+        font-size: 50px;
+        font-style:italic;
+        color: #8B4513;
+    }
+</style>
+<body>
+    <h1 class="heading">Can I get another chance...?</h1>
+    <a href="final.html" class="next">Click here for the next page</a>
+    <a href="main.html" class="next1">Click here for the previous page</a>
+</body>
+</html>
