@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Explanation</title>
-    <meta name="'viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
     body 
@@ -18,10 +18,10 @@
     }
     .Heading
     {
-        position: absolute;
-        top: -20px;
-        left: 10px;
-        right: 10px;
+        /* We are removing absolute positioning */
+        margin-top: 40px; /* Use margin to control spacing */
+        padding-left: 10px; /* Use padding/width to control edges */
+        padding-right: 10px;
         font-size: 64px;
         text-decoration: underline;
         text-underline-offset: 3px;
@@ -32,10 +32,10 @@
     }    
     .First
     {
-        position: absolute;
-        top: 150px;
-        left: 10px;
-        right: 10px;
+        /* We are removing absolute positioning */
+        margin-top: 50px; /* Use margin to control spacing */
+        padding-left: 10px; /* Use padding/width to control edges */
+        padding-right: 10px;
         font-size: 24px;
         font-family: Georgia;
         text-align: center;
@@ -44,10 +44,10 @@
     }
     .Second
     {
-        position: absolute;
-        top: 250px;
-        left: 10px;
-        right: 10px;
+       /* We are removing absolute positioning */
+        margin-top: 50px; /* Use margin to control spacing */
+        padding-left: 10px; /* Use padding/width to control edges */
+        padding-right: 10px;
         font-size: 24px;
         font-family: Georgia;
         text-align: center;
@@ -56,10 +56,10 @@
     }
     .Third
     {
-        position: absolute;
-        top: 450px;
-        left: 10px;
-        right: 10px;
+       /* We are removing absolute positioning */
+        margin-top: 50px; /* Use margin to control spacing */
+        padding-left: 10px; /* Use padding/width to control edges */
+        padding-right: 10px;
         font-size: 24px;
         font-family: Georgia;
         text-align: center;
@@ -68,31 +68,21 @@
     }
     .next
     {
-         position: absolute;
-        bottom: 1px;
-        right: 30px;
-        text-align: right;
-        display: inline-block;
-        font-size: 50px;
+        display: block; 
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 30px;
         font-style:italic;
         color: #9c5a2b;
     }
     .next1
     {
-        position: absolute;
-        bottom: 1px;
-        left: 30px;
-        text-align: left;
-        display: inline-block;
-        font-size: 50px;
-        font-style:italic;
-        color: #9c5a2b;
-    }
-    .next, .next1
-    {
         display: block; 
         text-align: center;
         margin-bottom: 10px;
+        font-size: 30px;
+        font-style:italic;
+        color: #9c5a2b;
     }
 </style>
 <body>
@@ -114,7 +104,7 @@
         to make me understand, but me being a dumb did not even get it. You are very precious to me, I dont want to lose you please dont again leave
         me in the darkness. Just give me a chance, I promise you to change myself.</strong>
     </p>
-    <a href="sub.html" class="next">Click here for the next page</a>
-    <a href="index.html" class="next1">Click here for the previous page</a>
+    <a href="sub.html" class="next"><b>Click here for the next page</b></a>
+    <a href="index.html" class="next1"><b>Click here for the previous page</b></a>
 </body>
 </html>
